@@ -9,6 +9,8 @@ name: Java CI with Gradle
 
 on:
   workflow_dispatch:
+  push:
+    branches: [ "master", "v3.4.3-dev", "v3.4.3" ]
 
 jobs:
   build:
